@@ -1,0 +1,26 @@
+.parent{
+	width: 594px;
+	height: 594px;
+	background: white;
+	position: relative;
+}
+div{
+	width: 198px;
+	height: 198px;
+	float: left;
+}
+
+div:nth-child(odd){
+	background :#850000;
+}
+
+div:nth-child(even) {
+    background: white; 
+}
+
+img{
+	height: 156px;
+	width: 156px;
+	align-self: center;
+	margin: 20px;
+}
